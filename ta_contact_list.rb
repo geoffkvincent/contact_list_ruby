@@ -24,7 +24,11 @@ def contact_input
   end
 end
 
-
+def delete_contact
+  puts "---Delete Contact---".colorize(:blue)
+  puts @contacts.join("\n")
+  puts "Which Contact Do You Want To Delete?"
+end
 
 while true
 case menu
