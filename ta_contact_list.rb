@@ -24,6 +24,8 @@ def contact_input
   end
 end
 
+
+
 while true
 case menu
   when 1
@@ -32,6 +34,8 @@ case menu
   when 2
     contact_input
   when 3
+    delete_contact
+  when 4
     puts "Goodbye".colorize(:blue)
     exit
   else
