@@ -28,6 +28,8 @@ def delete_contact
   puts "---Delete Contact---".colorize(:blue)
   puts @contacts.join("\n")
   puts "Which Contact Do You Want To Delete?"
+  name = gets.strip
+  @contacts.delete(name)
 end
 
 while true
